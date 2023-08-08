@@ -1,0 +1,38 @@
+.upper{
+  text-align: center;
+  background-color: #1f2a3b;
+  height: 1.2cm;
+  padding: 10px;
+  margin: 0;
+  color: white;
+}
+.lower{
+  text-align: center;
+  height: 1.2cm;
+  padding: 10px;
+}
+.link{
+  padding: 4px;
+  color: #1f2a3b;
+}
+.sicon{
+
+  float: right;
+  padding: 10px;
+}
+.fa{
+  font-size: 22px;
+}
+.icon a{
+  float: right;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: right;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid #0ef;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #0ef;
+}
