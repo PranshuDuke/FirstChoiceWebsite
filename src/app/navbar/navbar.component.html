@@ -1,0 +1,20 @@
+<mat-toolbar class="dark">
+  <div class="spacer">
+    <a mat-button (click)="banner()">Home</a>
+    <a mat-button (click)="Reach()">Reach Us</a>
+    <a mat-button (click)="toCase()">Case Study</a>
+    <a mat-button (click)="toAbout()" >About Us</a>
+  </div>
+</mat-toolbar>
+<section id="banner" *ngIf="flag">
+  <app-banner></app-banner>
+</section>
+<section id="about" *ngIf="flag">
+  <app-about-us></app-about-us>
+</section>
+<section id="card" *ngIf="flag">
+  <app-cards></app-cards>
+</section>
+<section id="reach-us" *ngIf="!flag">
+<app-reach-us></app-reach-us>
+</section>

@@ -1,0 +1,78 @@
+<section class="hero is-primary is-bold">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">Contact Us!</h1>
+    </div>
+
+  </div>
+
+</section>
+
+<div class="contact-upper">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-12">
+              <p class="text-center p-2 reachus">Get in Touch</p>
+              <p class="text-center p-4">We're here to answer any question you may have about your treatment or in general. You can get in touch with us via phone, email, online or visit us in person.</p>
+          </div>
+
+      </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xl-6 col-lg-6 col-md-6">
+    <div class="container">
+    <h1>Our Clinic Address</h1>
+    <h2>Saharanpur - 1st Choice Homeopathy Clinic</h2>
+    <p>ABC jaha pe bhi hai</p>
+    <p>Timing: </p>
+    <p>Morning 10 to 1</p>
+    <p>Evening 5 to 9</p>
+    <br>
+    <h2>Rampur - Mayank Homeopathy Clinic</h2>
+    <p>ABC jaha pe bhi hai</p>
+    <p>Timing:</p>
+    <p>10:00 AM to 3 PM</p>
+    <br>
+    <p>Email-mayanksengar7300@gmail.com</p>
+    <br>
+  </div>
+</div>
+  <div class="col-xl-6 col-lg-6 col-md-6 about-text">
+    <!-- <h3 class="font-weight-bold text-center ">Baad me dekhenge</h3>
+    <div class="text-center p-4">
+       Krenge krenge</div> -->
+
+       <section class="section">
+        <div class="container">
+          <!--Contact Form-->
+          <form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+            <div class="field">
+              <label class="label">Name</label>
+              <input type="text" name="name" class="input" formControlName="name">
+            </div>
+            <div class="field">
+              <label class="label">Email</label>
+              <input type="email" name="email" class="input" formControlName="email">
+            </div>
+            <div class="field">
+              <label class="label">Your Message</label>
+              <textarea name="message" class="textarea" formControlName="message"></textarea>
+            </div>
+            <button type="submit" class="button is-large is-warning">Send!</button>
+          </form>
+          <!-- <form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+
+            <label for="first-name">First Name: </label>
+            <input id="first-name" type="text" formControlName="firstName">
+
+            <label for="last-name">Last Name: </label>
+            <input id="last-name" type="text" formControlName="lastName">
+
+          </form> -->
+        </div>
+
+       </section>
+
+  </div>
+</div>

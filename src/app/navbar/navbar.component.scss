@@ -1,0 +1,25 @@
+.spacer{
+  flex:1 1 auto;
+  color: white;
+  text-align: right;
+
+}
+.dark{
+  color: white;
+  background-color: #1f2a3b;
+  position: fixed;
+  z-index: 4;
+}
+a:link{
+  color: white;
+}
+a:visited{
+  color: white;
+}
+a:hover{
+  color: grey;
+}
+html{
+  scroll-behavior: smooth;
+  scroll-padding: 10rem;
+}
